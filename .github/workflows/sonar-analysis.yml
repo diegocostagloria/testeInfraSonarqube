@@ -40,7 +40,7 @@ jobs:
           wget -O hadolint https://github.com/hadolint/hadolint/releases/download/v2.5.0/hadolint-Linux-x86_64
           chmod +x hadolint
           export PATH="$PATH:$(pwd)"
-          hadolint Dockerfile
+          if [ -f Dockerfile ]; then hadolint Dockerfile; else echo "Dockerfile not found"; fi
 
       - name: Run KubeLinter
         run: |
