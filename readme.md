@@ -34,7 +34,7 @@ O arquivo de workflow `sonar-analysis.yml` está localizado em `.github/workflow
 
 2. Faça push das mudanças para o repositório ou crie um pull request. O workflow do GitHub Actions será acionado automaticamente.
 
-### Plugins Utilizados
+### Plugins Utilizados.
 
 - [SonarQube Terraform](https://github.com/racooper/sonar-terraform)
 - [SonarQube Docker](https://github.com/sbaudoin/sonar-docker)
