@@ -40,10 +40,4 @@ O arquivo de workflow `sonar-analysis.yml` está localizado em `.github/workflow
 - [SonarQube Docker](https://github.com/sbaudoin/sonar-docker)
 - [KubeLinter](https://github.com/stackrox/kube-linter)
 
-### Contribuições
 
-Sinta-se à vontade para abrir issues ou pull requests para melhorias.
-
-### Licença
-
-Este projeto é licenciado sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
