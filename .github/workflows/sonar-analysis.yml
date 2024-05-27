@@ -44,7 +44,7 @@ jobs:
 
       - name: Run KubeLinter
         run: |
-          wget -O kubelinter.tar.gz https://github.com/stackrox/kube-linter/releases/download/v0.4.0/kube-linter-linux.tar.gz
+          wget -O kubelinter.tar.gz https://github.com/stackrox/kube-linter/releases/download/v0.6.8/kube-linter-linux.tar.gz
           tar -xzf kubelinter.tar.gz
           chmod +x kube-linter
           export PATH="$PATH:$(pwd)"
